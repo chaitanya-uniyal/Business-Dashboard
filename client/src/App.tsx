@@ -19,7 +19,6 @@ function App() {
             <Navbar />
             <Routes>
               <Route path="/" element={<Dashboard />} />
-              <Route path="/predictions" element={<div>predictions</div>} />
             </Routes>
           </Box>
         </ThemeProvider>
